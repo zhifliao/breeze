@@ -1,6 +1,6 @@
 - name: install kubernetes package
   hosts: all
-  user: root
+  user: k8s
   vars:
     path: /var/tmp/wise2c/kubernetes
   tasks:
