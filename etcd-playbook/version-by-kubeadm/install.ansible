@@ -1,6 +1,6 @@
 - name: install etcd
   hosts: etcd
-  user: root
+  user: k8s
   vars:
     path: /var/tmp/wise2c/etcd
   tasks:
