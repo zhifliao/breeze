@@ -1,6 +1,6 @@
 - name: init host
   hosts: hosts
-  user: root
+  user: k8s
   any_errors_fatal: true
   vars:
     path: /var/tmp/wise2c/docker
