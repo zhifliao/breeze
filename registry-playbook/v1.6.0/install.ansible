@@ -1,6 +1,6 @@
 - name: setup registry
   hosts: registry
-  user: root
+  user: k8s
   vars:
     path: /var/tmp/wise2c/registry
   tasks:
